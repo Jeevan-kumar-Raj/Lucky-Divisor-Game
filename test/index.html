@@ -1,0 +1,129 @@
+<!--
+	@file : index.html
+
+	@description : a collection of tests being executed.
+
+	@author : Ayaovi Espoir Djissenou
+
+	@version : v1
+-->
+
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>LuckyDivisor Objects Test</title>
+
+	<!-- Styling files -->
+	<link rel="stylesheet" href="../lib/qunit-2.2.1.css">
+
+	<!-- Libraries -->
+	<script src="../lib/qunit-2.2.1.js"></script>
+	<!-- <script src="../lib/p5.js"></script> -->
+	<script src="missingfunctions.js"></script>
+	<!-- <script src="../lib/p5.dom.js"></script> -->
+	<!-- <script src="../lib/p5.sound.js"></script> -->
+
+	<!-- Configuration files -->
+	<script src="../config/config.js"></script>
+	<script src="../config/global.js"></script>
+	<script src="../config/columnconfig.js"></script>
+	<script src="../config/cubeconfig.js"></script>
+	<script src="../config/toppanelconfig.js"></script>
+	<script src="../config/starconfig.js"></script>
+
+	<!-- Utility files -->
+	<script src="../util/masterutilities.js"></script>
+	<script src="../util/gameutilities.js"></script>
+	<script src="../util/dateutilities.js"></script>
+	<script src="../util/mathutilities.js"></script>
+	<script src="../util/cubeutilities.js"></script>
+
+	<!-- Source and test files -->
+	<script src="../src/score.js"></script>
+	<script src="scoretests.js"></script>
+
+	<!-- Date Tests -->
+	<script src="../src/date.js"></script>
+	<script src="datetests.js"></script>
+
+	<!-- Clock Tests -->
+	<script src="../src/clock.js"></script>
+	<script src="clocktests.js"></script>
+
+	<!-- Panel Tests -->
+	<script src="../src/panel.js"></script>
+	<script src="paneltests.js"></script>
+
+	<!--
+		QUnit is having issues with my definition of the TopPanel class
+		I think it may be the inheritance from Panel. As such I commented this
+		test out. Will look into it later.
+		I have looked into it. And the issue has nothing to do with my inheritance
+		of Panel, but instead my misspelling constructor (I wrote constuctor instead).
+	-->
+	<script src="../src/toppanel.js"></script>
+	<script src="toppaneltests.js"></script>
+
+	<!-- Side Panel Tests -->
+	<script src="../src/emoticon.js"></script>
+	<script src="../src/cube.js"></script>
+	<script src="../src/sidepanelcube.js"></script>
+	<script src="../src/sidepanel.js"></script>
+	<script src="sidepaneltests.js"></script>
+
+	<!-- Cube Tests -->
+	<script src="cubetests.js"></script>
+
+	<!-- Side Panel Cube Tests -->
+	<script src="sidepanelcubetests.js"></script>
+
+	<!-- Pn Cube Tests -->
+	<script src="../src/pncube.js"></script>
+	<script src="../src/pncubemotionhandler.js"></script>
+	<script src="../src/cubecollisionhandler.js"></script>
+	<script src="pncubetests.js"></script>
+
+	<!-- Star Tests -->
+	<script src="../src/star.js"></script>
+	<script src="startests.js"></script>
+
+	<!-- Player Tests -->
+	<script src="../src/player.js"></script>
+	<script src="playertests.js"></script>
+
+	<!-- Player Cube Tests -->
+	<script src="../src/playercube.js"></script>
+	<script src="../src/playercubemotionhandler.js"></script>
+	<script src="playercubetests.js"></script>
+
+	<!-- Event Tests -->
+	<script src="../src/event.js"></script>
+	<script src="eventtests.js"></script>
+
+	<!-- Event Queue Tests -->
+	<script src="../src/eventqueue.js"></script>
+	<script src="eventqueuetests.js"></script>
+
+	<!-- Start new event Tests -->
+	<script src="../src/startnewcubeevent.js"></script>
+	<script src="startnewcubeeventtests.js"></script>
+
+	<!-- Column Tests -->
+	<script src="../src/columnactivityhandler.js"></script>
+	<script src="../src/column.js"></script>
+	<script src="columntests.js"></script>
+
+	<!-- Button Tests -->
+	<script src="../src/button.js"></script>
+	<script src="buttontests.js"></script>
+
+	<!-- Game Utilties Tests -->
+	<script src="gameutilitiestests.js"></script>
+</head>
+<body>
+
+	<div id="qunit"></div>
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!--
+	@file : index.html
+
+	@description : The webpage of the LuckyDivisor game.
+
+	@author : Ayaovi Espoir Djissenou
+
+	@version : v1
+-->
+
+<!DOCTYPE html>
+<!-- <html manifest="luckyDivisor.appcache"> -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title> Lucky Divisor </title>
+	<!-- <script language="JavaScript" type="text/javascript" src="../lib/jquery.min.js"></script> -->
+	<script language="javascript" type="text/javascript" src="../lib/p5.js"></script>
+	<script language="javascript" type="text/javascript" src="../lib/p5.collide2d.js"></script>
+	<script language="javascript" type="text/javascript" src="../lib/p5.dom.js"></script>
+	<script language="javascript" type="text/javascript" src="../config/config.js"></script>
+	<script language="javascript" type="text/javascript" src="../config/columnconfig.js"></script>
+	<script language="javascript" type="text/javascript" src="../config/cubeconfig.js"></script>
+	<script language="javascript" type="text/javascript" src="../config/toppanelconfig.js"></script>
+	<script language="javascript" type="text/javascript" src="../config/sidepanelconfig.js"></script>
+	<script language="javascript" type="text/javascript" src="../config/starconfig.js"></script>
+	<script language="javascript" type="text/javascript" src="../config/timerconfig.js"></script>
+	<script language="javascript" type="text/javascript" src="../config/scoreconfig.js"></script>
+	<script language="javascript" type="text/javascript" src="../config/global.js"></script>
+	<script language="javascript" type="text/javascript" src="main.js"></script>
+	<script language="javascript" type="text/javascript" src="cube.js"></script>
+	<script language="javascript" type="text/javascript" src="player.js"></script>
+	<script language="javascript" type="text/javascript" src="panel.js"></script>
+	<script language="javascript" type="text/javascript" src="toppanel.js"></script>
+	<script language="javascript" type="text/javascript" src="sidepanel.js"></script>
+	<script language="javascript" type="text/javascript" src="sidepanelcube.js"></script>
+	<script language="javascript" type="text/javascript" src="star.js"></script>
+	<script language="javascript" type="text/javascript" src="clock.js"></script>
+	<script language="javascript" type="text/javascript" src="columnactivityhandler.js"></script>
+	<script language="javascript" type="text/javascript" src="column.js"></script>
+	<script language="javascript" type="text/javascript" src="date.js"></script>
+	<script language="javascript" type="text/javascript" src="playercube.js"></script>
+	<script language="javascript" type="text/javascript" src="playercubemotionhandler.js"></script>
+	<script language="javascript" type="text/javascript" src="pncube.js"></script>
+	<script language="javascript" type="text/javascript" src="pncubemotionhandler.js"></script>
+	<script language="javascript" type="text/javascript" src="cubecollisionhandler.js"></script>
+	<script language="javascript" type="text/javascript" src="../util/masterutilities.js"></script>
+	<script language="javascript" type="text/javascript" src="../util/dateutilities.js"></script>
+	<script language="javascript" type="text/javascript" src="../util/cubeutilities.js"></script>
+	<script language="javascript" type="text/javascript" src="../util/gameutilities.js"></script>
+	<script language="javascript" type="text/javascript" src="../util/mathutilities.js"></script>
+	<script language="javascript" type="text/javascript" src="score.js"></script>
+	<script language="javascript" type="text/javascript" src="button.js"></script>
+	<script language="javascript" type="text/javascript" src="event.js"></script>
+	<script language="javascript" type="text/javascript" src="eventqueue.js"></script>
+	<script language="javascript" type="text/javascript" src="startnewcubeevent.js"></script>
+	<script language="javascript" type="text/javascript" src="endplayevent.js"></script>
+	<script language="javascript" type="text/javascript" src="emoticon.js"></script>
+	<script language="javascript" type="text/javascript" src="gameexception.js"></script>
+	
+	<style>
+		body
+		{
+			padding: 0;
+			margin: 0;
+		}
+
+		div.static
+		{
+			position: absolute;
+		}
+	</style>
+</head>
+<body style="background-color:lightgreen;">
+	<div class ="static" id='gameCanvasContainer'></div>
+	<div class ="static" id='sidePanelContainer'></div>
+</body>
+</html>
